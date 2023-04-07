@@ -1,0 +1,128 @@
+.player__list{
+    width: 350px;
+    height: 800px;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+
+.player__list--statusbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.player__list--statusbar span{
+    margin: 30px;
+}
+
+.player__list--main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player__list--main__artist{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0px;
+}
+
+.player__list--main__genre{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(0,0,0,0.5);
+    margin: 10px 0px;
+}
+
+.player__list--main__img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.player__list--btn{
+    display: flex;
+    justify-content: center;
+}
+
+.player__list--btn__shuffle{
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin: 20px 10px;
+}
+
+.player__list--btn__heart{
+    width: 120px;
+    height: 50px;
+    background-color: whitesmoke;
+    color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin: 20px 10px;
+}
+
+.player__list--btn__heart i{
+    margin: 0px 10px;
+}
+
+.player__list--waitlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player__list--waitlist__song{
+    width: 300px;
+    height: 70px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+
+.player__list--waitlist__img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    left: 10px;
+}
+
+.player__list--waitlist__content{
+    
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 70px;
+    
+}
+
+.player__list--waitlist__content span:first-child{
+    color: rgba(0,0,0,0.5);
+    display: block;
+    margin: 5px 0px 15px 0px;
+}
+
+.player__list--waitlist__content span:last-child{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin: 15px 0px 5px 0px;
+}
+
+.player__list--waitlist__icon{
+    position: absolute;
+    right: 20px;
+}
